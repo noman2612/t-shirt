@@ -1,0 +1,11 @@
+.t-sirt-container {
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.t-sirt-container img {
+    height: 250px;
+    border-radius: 15px;
+
+}

@@ -6,9 +6,10 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Heder from './component/Heder/Heder';
+
 import Main from './component/Layout/Main';
-import Oders from './component/Oders/Oders';
+import Home from './component/Oders/Oders';
+
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
     children: [
       {
         path:"order",
-        element:<Oders></Oders>,
+        element:<Home></Home>,
         loader:()=>fetch('tShirt.json')
       },
     ],
